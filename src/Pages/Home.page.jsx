@@ -62,8 +62,9 @@ const HomePage = () => {
                     <PosterSlider 
                         images={popularMovies} 
                         title="Premieres" 
-                        subtitle="Brand new releases every friday"/>
+                        subtitle="Brand new releases every friday"
                         isDark
+                      />
                 </div>
             </div>
         </div>
