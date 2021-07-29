@@ -1,5 +1,5 @@
 import React, { useContext} from "react";
-import { BiChevronRight, BiSearch, BiMenu, BiChevronDown, BiShareAlt } from "react-icons/bi";
+import { BiSearch, BiMenu, BiChevronDown, BiShareAlt } from "react-icons/bi";
 
 // Context
 import { MovieContext } from "../../context/movie.context";
@@ -42,7 +42,7 @@ const NavLg = () => {
                 </div>
                 <div className="flex items-center gap-3">
                     <span className="text-gray-200 text-xs flex item-center cursor-pointer hover:text-white">
-                        Asansol <BiChevronDown />
+                        Bangalore <BiChevronDown />
                     </span>
                     <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
                         Sign in</button>
