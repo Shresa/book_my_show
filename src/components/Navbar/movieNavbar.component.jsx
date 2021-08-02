@@ -7,7 +7,7 @@ import { MovieContext } from "../../context/movie.context";
 const NavSm = () => {
     const { movie } = useContext(MovieContext);
     return (
-        <>
+      <>
          <div className="text-white flex items-center justify-between">
              <div>
                 <h3 className="text-xl font-bold">{movie.original_title}</h3>
@@ -16,7 +16,7 @@ const NavSm = () => {
                  <BiShareAlt className="w-full h-full" />
              </div>     
          </div>
-        </>
+      </>
     );
 };
 
@@ -34,15 +34,15 @@ const NavLg = () => {
                     <div className="w-full flex items-center gap-3 bg-white px-3 py-2 rounded-md">
                         <BiSearch />
                         <input
-                        type="search" 
-                        className="w-full bg-transparent border-none focus:outline-none"
-                        placeholder="Search for movies, events, Plays, Sports and Activities"
+                            type="search" 
+                            className="w-full bg-transparent border-none focus:outline-none"
+                            placeholder="Search for movies, events, Plays, Sports and Activities"
                         />
                     </div>
                 </div>
                 <div className="flex items-center gap-3">
                     <span className="text-gray-200 text-xs flex item-center cursor-pointer hover:text-white">
-                        Bangalore <BiChevronDown />
+                        Asansol <BiChevronDown />
                     </span>
                     <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
                         Sign in</button>
@@ -68,7 +68,7 @@ const MovieNavbar = () => {
                 <NavSm />
             </div>
             <div className="hidden w-full lg:flex">
-                {/*Laptop screen*/}
+                {/*Large/Laptop screen*/}
                 <NavLg />
             </div>
         </nav>

@@ -15,7 +15,7 @@ const Poster = (props) => {
             <h3 className={`text-lg font-bold ${
                 props.isDark ? "text-white" : "text-gray-700"
                 }`}>
-                {props.original_title}
+                {props.title}
             </h3>
             <p className={`text-sm ${props.isDark ? "text-white" : "text-gray-700"}`}>
                 {props.subtitle}

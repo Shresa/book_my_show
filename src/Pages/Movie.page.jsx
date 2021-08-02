@@ -83,7 +83,7 @@ const Movie = () => {
   const settingsCast = {
     infinite: false,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
@@ -98,7 +98,7 @@ const Movie = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2,
         },

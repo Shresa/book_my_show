@@ -14,7 +14,7 @@ const DefaultHOC = ({component: Component, ...rest }) => {
             </DefaultLayout>
         )}
       />
-    </>
+     </>
     );
 };
 

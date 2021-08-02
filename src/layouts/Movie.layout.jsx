@@ -8,9 +8,9 @@ import MovieNavbar from "../components/Navbar/movieNavbar.component";
 // context
 import { MovieContext } from "../context/movie.context";
 
-export const Movielayout = (props) => {
+const Movielayout = (props) => {
     const { id } = useParams();
-    const { movie, setMovie } = useContext(MovieContext);
+    const { setMovie } = useContext(MovieContext);
 
     useEffect(() => {
         const requestMovie = async () => {

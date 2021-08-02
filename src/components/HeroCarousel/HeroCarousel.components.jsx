@@ -42,7 +42,7 @@ const HeroCarousel = () =>  {
 
 
     return (
-    <>
+     <>
         <div className="lg:hidden">
           <HeroSlider {...settings}>
             {images.map((image) => (
@@ -65,7 +65,7 @@ const HeroCarousel = () =>  {
             ))}
           </HeroSlider>
         </div>
-    </>
+     </>
     );
 };
 

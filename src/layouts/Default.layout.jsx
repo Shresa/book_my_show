@@ -7,11 +7,11 @@ import Navbar from "../components/Navbar/navbar.component";
 
 const DefaultLayout = (props) => {
     return (
-    <>
+      <>
         <Navbar />
         <HeroCarousel />
         {props.children}
-    </>
+      </>
     );
 };
 
